@@ -4,6 +4,18 @@ require 'multi_json'
 module Windy
   VERSION = '0.1.0'
 
+  class << self
+    attr_accessor :app_token, :debug
+  end
+
+  class SocrataAppTokenMiddleware < Faraday::Middleware
+    def call(env)
+      raise "You must specify an app token" if !Windy.app_token
+      env[:request_headers]["X-App-Token"] = Windy.app_token
+      @app.call env
+    end
+  end
+
   class Base
     def self.root
       "http://data.cityofchicago.org"
@@ -12,7 +24,17 @@ module Windy
     attr_reader :connection
 
     def initialize
-      @connection = Faraday.new(:url => self.class.root)
+      @connection = Faraday.new(:url => self.class.root) do |builder|
+        builder.use SocrataAppTokenMiddleware
+        builder.request :json
+
+        # Enable logger output with Windy.debug = true
+        if Windy.debug
+          builder.response :logger
+        end
+
+        builder.adapter :net_http
+      end
     end
 
     def body
