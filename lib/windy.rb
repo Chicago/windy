@@ -1,7 +1,9 @@
 require 'faraday'
-require 'json'
+require 'multi_json'
 
 module Windy
+  VERSION = '0.1.0'
+
   class Base
     def self.root
       "http://data.cityofchicago.org"
@@ -24,7 +26,7 @@ module Windy
     end
 
     def json
-      @json ||= JSON.parse(body)
+      @json ||= MultiJson.decode(body)
     end
 
     def inspect

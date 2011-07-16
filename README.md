@@ -12,9 +12,11 @@ Before we begin, it should be noted that there are several ways to interact with
 
 We'll walk through a few steps below, and show you what Windy can do.
 
-First off, download a copy of Windy, and fire up your irb.
+First off, install the Windy gem, and fire up your irb console.
 
+    $ gem install windy
     $ irb
+    >> require 'rubygems'
     >> require 'windy'
 
 ### Views
