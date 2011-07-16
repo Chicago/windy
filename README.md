@@ -28,7 +28,7 @@ To get an Array of all views:
     >> all_views = Windy.views
     >> all_views.count
     => 537
-    >> first_view = views.first
+    >> first_view = all_views.first
 
 If you know which view you'd like to work with, you can access it directly by the View ID. In the following example, we found the the View's ID by looking at the end of the [Towed Vehicle's dataset URL](http://data.cityofchicago.org/Government/Towed-Vehicles/ygr5-vcbg).
 
