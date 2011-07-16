@@ -19,6 +19,16 @@ First off, install the Windy gem, and fire up your irb console.
     >> require 'rubygems'
     >> require 'windy'
 
+To use the Socrata API, you should also create an app token for your application, which allows you to
+make requests without being grouped into a much smaller quota pool. Registering
+for an app token is easy, and can be done at http://dev.socrata.com/register.
+
+Once you have an app token, you need to pass it to Windy before calling the API:
+
+    >> Windy.app_token = "CG45HQoQlgfeev4zyUh5aR5J3"
+
+More information on Socrata app tokens can be found at http://dev.socrata.com/authentication.
+
 ### Views
 
 Views are at the heart of each dataset. In a nutshell, every dataset has at least one view, the original view. Users of the Data Portal are allowed to create customized views, however for the sake of this walk-through, we'll only be discussing the original view.
