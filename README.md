@@ -19,15 +19,9 @@ First off, install the Windy gem, and fire up your irb console.
     >> require 'rubygems'
     >> require 'windy'
 
-To use the Socrata API, you should also create an app token for your application, which allows you to
-make requests without being grouped into a much smaller quota pool. Registering
-for an app token is easy, and can be done at http://dev.socrata.com/register.
+Note: The Socrata API is [rate-limited](http://dev.socrata.com/authentication) by default. If you would like to increase your quota, [register for an app token](http://dev.socrata.com/register) and pass it to Windy as follows:
 
-Once you have an app token, you need to pass it to Windy before calling the API:
-
-    >> Windy.app_token = "CG45HQoQlgfeev4zyUh5aR5J3"
-
-More information on Socrata app tokens can be found at http://dev.socrata.com/authentication.
+    >> Windy.app_token = "insert_your_app_token_here"
 
 ### Views
 
