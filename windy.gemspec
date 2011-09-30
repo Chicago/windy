@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "windy"
-  s.version     = "0.1.0"
+  s.version     = "0.1.1"
   s.summary     = "Ruby interface to the City of Chicago's Data Portal API"
   s.description = "Windy is a Ruby module that allows you to easily interact with the City of Chicago's Data Portal."
 

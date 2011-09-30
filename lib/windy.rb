@@ -2,7 +2,7 @@ require 'faraday'
 require 'multi_json'
 
 module Windy
-  VERSION = '0.1.0'
+  VERSION = '0.1.1'
 
   class << self
     attr_accessor :app_token, :debug
