@@ -1,0 +1,744 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "28km-gtjn",
+      "name" : "Fire Stations",
+      "attribution" : "City of Chicago",
+      "attributionLink" : "http://www.cityofchicago.org",
+      "averageRating" : 0,
+      "category" : "Public Safety",
+      "createdAt" : 1293051546,
+      "description" : "Fire station locations",
+      "downloadCount" : 317,
+      "numberOfComments" : 0,
+      "oid" : 306932,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1302998589,
+      "publicationGroup" : 220747,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1313894852,
+      "rowsUpdatedBy" : "scy9-9wg4",
+      "signed" : false,
+      "tableId" : 220747,
+      "totalTimesRated" : 0,
+      "viewCount" : 11623,
+      "viewLastModified" : 1314554985,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data"
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "id",
+        "position" : 0,
+        "renderTypeName" : "meta_data"
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "position",
+        "position" : 0,
+        "renderTypeName" : "meta_data"
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data"
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data"
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data"
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data"
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data"
+      }, {
+        "id" : 2609783,
+        "name" : "NAME",
+        "dataTypeName" : "text",
+        "fieldName" : "name",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1424810,
+        "width" : 69,
+        "cachedContents" : {
+          "non_null" : 92,
+          "smallest" : "E1",
+          "null" : 0,
+          "largest" : "E99",
+          "top" : [ {
+            "count" : 1,
+            "item" : "E89"
+          }, {
+            "count" : 1,
+            "item" : "E81"
+          }, {
+            "count" : 1,
+            "item" : "E104"
+          }, {
+            "count" : 1,
+            "item" : "E126"
+          }, {
+            "count" : 1,
+            "item" : "E115"
+          }, {
+            "count" : 1,
+            "item" : "E7"
+          }, {
+            "count" : 1,
+            "item" : "E45"
+          }, {
+            "count" : 1,
+            "item" : "E56"
+          }, {
+            "count" : 1,
+            "item" : "E112"
+          }, {
+            "count" : 1,
+            "item" : "E91"
+          }, {
+            "count" : 1,
+            "item" : "E68"
+          }, {
+            "count" : 1,
+            "item" : "E39"
+          }, {
+            "count" : 1,
+            "item" : "E125"
+          }, {
+            "count" : 1,
+            "item" : "E103"
+          }, {
+            "count" : 1,
+            "item" : "E46"
+          }, {
+            "count" : 1,
+            "item" : "E117"
+          }, {
+            "count" : 1,
+            "item" : "E106"
+          }, {
+            "count" : 1,
+            "item" : "E29"
+          }, {
+            "count" : 1,
+            "item" : "E113"
+          }, {
+            "count" : 1,
+            "item" : "E110"
+          } ]
+        }
+      }, {
+        "id" : 2609784,
+        "name" : "ADDRESS",
+        "dataTypeName" : "text",
+        "fieldName" : "address",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1424811,
+        "width" : 154,
+        "cachedContents" : {
+          "non_null" : 92,
+          "smallest" : "101 E 79TH ST",
+          "null" : 0,
+          "largest" : "8630 S EMERALD AVE",
+          "top" : [ {
+            "count" : 1,
+            "item" : "11958 S STATE ST"
+          }, {
+            "count" : 1,
+            "item" : "3509 S LOWE AVE"
+          }, {
+            "count" : 1,
+            "item" : "2534 S THROOP ST"
+          }, {
+            "count" : 1,
+            "item" : "3002 W 42ND ST"
+          }, {
+            "count" : 1,
+            "item" : "7313 S KINGSTON AVE"
+          }, {
+            "count" : 1,
+            "item" : "548 W DIVISION ST"
+          }, {
+            "count" : 1,
+            "item" : "5000 S UNION AVE"
+          }, {
+            "count" : 1,
+            "item" : "1244 N WESTERN AVE"
+          }, {
+            "count" : 1,
+            "item" : "5258 W GRAND AVE"
+          }, {
+            "count" : 1,
+            "item" : "1747 N PULASKI RD"
+          }, {
+            "count" : 1,
+            "item" : "439 N WALLER AVE"
+          }, {
+            "count" : 1,
+            "item" : "2718 N HALSTED ST"
+          }, {
+            "count" : 1,
+            "item" : "4600 S COTTAGE GROVE AVE"
+          }, {
+            "count" : 1,
+            "item" : "4005 S DEARBORN ST"
+          }, {
+            "count" : 1,
+            "item" : "101 E 79TH ST"
+          }, {
+            "count" : 1,
+            "item" : "21 W 59TH ST"
+          }, {
+            "count" : 1,
+            "item" : "212 W CERMAK RD"
+          }, {
+            "count" : 1,
+            "item" : "1724 W 95TH ST"
+          }, {
+            "count" : 1,
+            "item" : "2215 W 51ST ST"
+          }, {
+            "count" : 1,
+            "item" : "10615 S EWING AVE"
+          } ]
+        }
+      }, {
+        "id" : 2609785,
+        "name" : "CITY",
+        "dataTypeName" : "text",
+        "fieldName" : "city",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1424812,
+        "width" : 118,
+        "cachedContents" : {
+          "non_null" : 92,
+          "smallest" : "CHICAGO",
+          "null" : 0,
+          "largest" : "CHICAGO",
+          "top" : [ {
+            "count" : 92,
+            "item" : "CHICAGO"
+          } ]
+        }
+      }, {
+        "id" : 2609786,
+        "name" : "STATE",
+        "dataTypeName" : "text",
+        "fieldName" : "state",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1424813,
+        "width" : 50,
+        "cachedContents" : {
+          "non_null" : 92,
+          "smallest" : "IL",
+          "null" : 0,
+          "largest" : "IL",
+          "top" : [ {
+            "count" : 92,
+            "item" : "IL"
+          } ]
+        }
+      }, {
+        "id" : 2609789,
+        "name" : "ZIP",
+        "dataTypeName" : "text",
+        "fieldName" : "zip",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1424816,
+        "width" : 50,
+        "cachedContents" : {
+          "non_null" : 92,
+          "smallest" : "60601",
+          "null" : 0,
+          "largest" : "60707",
+          "top" : [ {
+            "count" : 5,
+            "item" : "60617"
+          }, {
+            "count" : 5,
+            "item" : "60609"
+          }, {
+            "count" : 4,
+            "item" : "60608"
+          }, {
+            "count" : 3,
+            "item" : "60618"
+          }, {
+            "count" : 3,
+            "item" : "60623"
+          }, {
+            "count" : 3,
+            "item" : "60641"
+          }, {
+            "count" : 3,
+            "item" : "60643"
+          }, {
+            "count" : 3,
+            "item" : "60628"
+          }, {
+            "count" : 3,
+            "item" : "60612"
+          }, {
+            "count" : 2,
+            "item" : "60644"
+          }, {
+            "count" : 2,
+            "item" : "60625"
+          }, {
+            "count" : 2,
+            "item" : "60659"
+          }, {
+            "count" : 2,
+            "item" : "60619"
+          }, {
+            "count" : 2,
+            "item" : "60620"
+          }, {
+            "count" : 2,
+            "item" : "60614"
+          }, {
+            "count" : 2,
+            "item" : "60633"
+          }, {
+            "count" : 2,
+            "item" : "60639"
+          }, {
+            "count" : 2,
+            "item" : "60638"
+          }, {
+            "count" : 2,
+            "item" : "60652"
+          }, {
+            "count" : 2,
+            "item" : "60632"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right"
+        }
+      }, {
+        "id" : 2609788,
+        "name" : "ENGINE",
+        "dataTypeName" : "text",
+        "fieldName" : "engine",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1424815,
+        "width" : 81,
+        "cachedContents" : {
+          "non_null" : 92,
+          "smallest" : "E1",
+          "null" : 0,
+          "largest" : "E99",
+          "top" : [ {
+            "count" : 1,
+            "item" : "E89"
+          }, {
+            "count" : 1,
+            "item" : "E81"
+          }, {
+            "count" : 1,
+            "item" : "E104"
+          }, {
+            "count" : 1,
+            "item" : "E126"
+          }, {
+            "count" : 1,
+            "item" : "E115"
+          }, {
+            "count" : 1,
+            "item" : "E7"
+          }, {
+            "count" : 1,
+            "item" : "E45"
+          }, {
+            "count" : 1,
+            "item" : "E56"
+          }, {
+            "count" : 1,
+            "item" : "E112"
+          }, {
+            "count" : 1,
+            "item" : "E91"
+          }, {
+            "count" : 1,
+            "item" : "E68"
+          }, {
+            "count" : 1,
+            "item" : "E39"
+          }, {
+            "count" : 1,
+            "item" : "E125"
+          }, {
+            "count" : 1,
+            "item" : "E103"
+          }, {
+            "count" : 1,
+            "item" : "E46"
+          }, {
+            "count" : 1,
+            "item" : "E117"
+          }, {
+            "count" : 1,
+            "item" : "E106"
+          }, {
+            "count" : 1,
+            "item" : "E29"
+          }, {
+            "count" : 1,
+            "item" : "E113"
+          }, {
+            "count" : 1,
+            "item" : "E110"
+          } ]
+        }
+      }, {
+        "id" : 2609790,
+        "name" : "LOCATION",
+        "dataTypeName" : "location",
+        "fieldName" : "location",
+        "position" : 8,
+        "renderTypeName" : "location",
+        "tableColumnId" : 1424817,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 92,
+          "smallest" : {
+            "longitude" : -87.68185534665783,
+            "latitude" : 41.88151592134697,
+            "human_address" : "{\"address\":\"10 N LEAVITT ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60612\"}"
+          },
+          "null" : 0,
+          "largest" : {
+            "longitude" : -87.64245532798658,
+            "latitude" : 41.73693577387957,
+            "human_address" : "{\"address\":\"8630 S EMERALD AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60620\"}"
+          },
+          "top" : [ {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.6702338230154,
+              "latitude" : 41.99185705844965,
+              "human_address" : "{\"address\":\"6030 N CLARK ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60660\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.58341162594515,
+              "latitude" : 41.749827955664045,
+              "human_address" : "{\"address\":\"7974 S SOUTH CHICAGO AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60617\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.54470437664087,
+              "latitude" : 41.652591152628624,
+              "human_address" : "{\"address\":\"13359 S BURLEY AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60633\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.62642113677177,
+              "latitude" : 41.786898250644306,
+              "human_address" : "{\"address\":\"21 W 59TH ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60621\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.62259901814724,
+              "latitude" : 41.89706519923356,
+              "human_address" : "{\"address\":\"202 E CHICAGO AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60611\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.65640453322862,
+              "latitude" : 41.94920789049237,
+              "human_address" : "{\"address\":\"1052 W WAVELAND AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60613\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.7242763667799,
+              "latitude" : 41.85850227061717,
+              "human_address" : "{\"address\":\"3949 W 16TH ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60623\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.75785762001762,
+              "latitude" : 41.964650420624565,
+              "human_address" : "{\"address\":\"4625 N MILWAUKEE AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60630\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.72568030374029,
+              "latitude" : 41.990056658779615,
+              "human_address" : "{\"address\":\"3945 W PETERSON AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60659\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.63830544212665,
+              "latitude" : 41.76525963399459,
+              "human_address" : "{\"address\":\"7101 S PARNELL AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60621\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.72485128276466,
+              "latitude" : 41.80790024096418,
+              "human_address" : "{\"address\":\"4034 W 47TH ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60632\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.64436386377967,
+              "latitude" : 41.676767520058746,
+              "human_address" : "{\"address\":\"11940 S PEORIA ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60643\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.68713245676875,
+              "latitude" : 41.9038275429672,
+              "human_address" : "{\"address\":\"1244 N WESTERN AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60622\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.67830302464209,
+              "latitude" : 41.95075472438277,
+              "human_address" : "{\"address\":\"3801 N DAMEN AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60618\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.71468959394757,
+              "latitude" : 41.785702152345344,
+              "human_address" : "{\"address\":\"3637 W 59TH ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60629\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.76761633819585,
+              "latitude" : 41.88832430415244,
+              "human_address" : "{\"address\":\"439 N WALLER AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60644\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.64899361595215,
+              "latitude" : 41.93179744380986,
+              "human_address" : "{\"address\":\"2718 N HALSTED ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60614\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.75197548528234,
+              "latitude" : 41.77750932865842,
+              "human_address" : "{\"address\":\"5200 W 63RD ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60638\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.61779663851078,
+              "latitude" : 41.83227804024279,
+              "human_address" : "{\"address\":\"3421 S CALUMET AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60616\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.64245532798658,
+              "latitude" : 41.73693577387957,
+              "human_address" : "{\"address\":\"8630 S EMERALD AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60620\"}"
+            }
+          } ]
+        },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Metadata" : {
+            "Data Owner" : "Fire",
+            "Time Period" : "Current as of 2011",
+            "Frequency" : "Data is updated as needed"
+          }
+        },
+        "rdfSubject" : "0",
+        "attachments" : [ {
+          "blobId" : "05882A26-5DE0-458D-A046-0FA87AC76F6A",
+          "name" : "fire_stations.zip",
+          "filename" : "fire_stations.zip"
+        } ],
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "scy9-9wg4",
+        "displayName" : "cocadmin",
+        "emailUnsubscribed" : false,
+        "privacyControl" : "login",
+        "profileImageUrlLarge" : "/images/profile/4783/7574/CitySeal_Small_large.jpg",
+        "profileImageUrlMedium" : "/images/profile/4783/7574/CitySeal_Small_thumb.jpg",
+        "profileImageUrlSmall" : "/images/profile/4783/7574/CitySeal_Small_tiny.jpg",
+        "profileLastModified" : 1316007354,
+        "roleName" : "administrator",
+        "screenName" : "cocadmin",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets" ]
+      },
+      "query" : {
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "scy9-9wg4",
+        "displayName" : "cocadmin",
+        "emailUnsubscribed" : false,
+        "privacyControl" : "login",
+        "profileImageUrlLarge" : "/images/profile/4783/7574/CitySeal_Small_large.jpg",
+        "profileImageUrlMedium" : "/images/profile/4783/7574/CitySeal_Small_thumb.jpg",
+        "profileImageUrlSmall" : "/images/profile/4783/7574/CitySeal_Small_tiny.jpg",
+        "profileLastModified" : 1316007354,
+        "roleName" : "administrator",
+        "screenName" : "cocadmin",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets" ]
+      },
+      "tags" : [ "public safety", "facilities", "gis" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1, "D24CB87C-4BE8-46FC-8863-83ECFDBC3F37", 1, 1293051547, "386464", 1293051632, "386464", null, "E119", "6030 N AVONDALE AVE", "CHICAGO", "IL", "60631", "E119", [ "{\"address\":\"6030 N AVONDALE AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60631\"}", "41.99120656361649", "-87.79879483457952", null, false ] ]
+, [ 2, "8E616141-0C0D-41CC-B731-B8AB6D8D8E28", 2, 1293051547, "386464", 1293051631, "386464", null, "E121", "1724 W 95TH ST", "CHICAGO", "IL", "60643", "E121", [ "{\"address\":\"1724 W 95TH ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60643\"}", "41.72124683806391", "-87.66576328672551", null, false ] ]
+, [ 3, "EC1EA27A-25AF-440D-ADC2-BDE933C265FB", 3, 1293051547, "386464", 1293051633, "386464", null, "E80", "12701 S DOTY AVE", "CHICAGO", "IL", "60633", "E80", [ "{\"address\":\"12701 S DOTY AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60633\"}", "41.66260010624714", "-87.59059746685327", null, false ] ]
+, [ 4, "4B6AD5FF-90C3-4981-8843-658735762222", 4, 1293051547, "386464", 1293051629, "386464", null, "E1", "419 S WELLS ST", "CHICAGO", "IL", "60607", "E1", [ "{\"address\":\"419 S WELLS ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60607\"}", "41.87604804340882", "-87.63333692317708", null, false ] ]
+, [ 5, "FAB342C4-5E23-4101-BCBE-C5D2548257B4", 5, 1293051547, "386464", 1293051634, "386464", null, "E14", "1129 W CHICAGO AVE", "CHICAGO", "IL", "60642", "E14", [ "{\"address\":\"1129 W CHICAGO AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60642\"}", "41.895977019578105", "-87.65622466882277", null, false ] ]
+, [ 6, "7E8181CF-5E1A-4854-9265-0F73105229E5", 6, 1293051547, "386464", 1293051630, "386464", null, "E49", "4401 S ASHLAND AVE", "CHICAGO", "IL", "60609", "E49", [ "{\"address\":\"4401 S ASHLAND AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60609\"}", "41.81404218586455", "-87.66497197801137", null, false ] ]
+, [ 7, "C30C807A-09F4-4656-A81D-BE8E1C340896", 7, 1293051547, "386464", 1293051632, "386464", null, "E54", "7101 S PARNELL AVE", "CHICAGO", "IL", "60621", "E54", [ "{\"address\":\"7101 S PARNELL AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60621\"}", "41.76525963399459", "-87.63830544212665", null, false ] ]
+, [ 8, "017E9157-F6D1-4779-9248-788BB028A173", 8, 1293051547, "386464", 1293051627, "386464", null, "E73", "8630 S EMERALD AVE", "CHICAGO", "IL", "60620", "E73", [ "{\"address\":\"8630 S EMERALD AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60620\"}", "41.73693577387957", "-87.64245532798658", null, false ] ]
+, [ 9, "F7361851-4E89-4572-A507-A2FC0BCB141D", 9, 1293051547, "386464", 1293051634, "386464", null, "E34", "4034 W 47TH ST", "CHICAGO", "IL", "60632", "E34", [ "{\"address\":\"4034 W 47TH ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60632\"}", "41.80790024096418", "-87.72485128276466", null, false ] ]
+, [ 10, "F4FB9564-B9D5-47C0-B89F-46A786C6E6AE", 10, 1293051547, "386464", 1293051634, "386464", null, "E93", "330 W 104TH ST", "CHICAGO", "IL", "60628", "E93", [ "{\"address\":\"330 W 104TH ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60628\"}", "41.7052439476399", "-87.6324331863445", null, false ] ]
+, [ 11, "50BA1CF8-CF5B-4F16-BBB1-CD0125CADE6D", 11, 1293051547, "386464", 1293051629, "386464", null, "E86", "3918 N HARLEM AVE", "CHICAGO", "IL", "60634", "E86", [ "{\"address\":\"3918 N HARLEM AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60634\"}", "41.95114251165066", "-87.80721934061404", null, false ] ]
+, [ 12, "1C2E23CB-8888-41D4-BB72-041C24D70A46", 12, 1293051547, "386464", 1293051627, "386464", null, "E22", "605 W ARMITAGE AVE", "CHICAGO", "IL", "60614", "E22", [ "{\"address\":\"605 W ARMITAGE AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60614\"}", "41.91792047709303", "-87.64396690956342", null, false ] ]
+, [ 13, "5EBA9606-758F-4EC5-BF1D-0630265358B5", 13, 1293051547, "386464", 1293051629, "386464", null, "E99", "3042 S KEDVALE AVE", "CHICAGO", "IL", "60623", "E99", [ "{\"address\":\"3042 S KEDVALE AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60623\"}", "41.837386198391975", "-87.72806083645415", null, false ] ]
+, [ 14, "D86902D2-D5C8-4B59-886D-F977CC34A9D7", 14, 1293051547, "386464", 1293051633, "386464", null, "E98", "202 E CHICAGO AVE", "CHICAGO", "IL", "60611", "E98", [ "{\"address\":\"202 E CHICAGO AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60611\"}", "41.89706519923356", "-87.62259901814724", null, false ] ]
+, [ 15, "D612A3C2-5D93-48AD-BF08-5C6090FEFBCA", 15, 1293051547, "386464", 1293051633, "386464", null, "E26", "10 N LEAVITT ST", "CHICAGO", "IL", "60612", "E26", [ "{\"address\":\"10 N LEAVITT ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60612\"}", "41.88151592134697", "-87.68185534665783", null, false ] ]
+, [ 16, "4F0057BC-B74D-4D03-88BD-8DD6225C4EB5", 16, 1293051547, "386464", 1293051629, "386464", null, "E5", "324 S DESPLAINES ST", "CHICAGO", "IL", "60661", "E5", [ "{\"address\":\"324 S DESPLAINES ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60661\"}", "41.877028304420755", "-87.64430865193455", null, false ] ]
+, [ 17, "88E36E66-1C19-439C-AAA2-669DFD396811", 17, 1293051547, "386464", 1293051631, "386464", null, "E44", "412 N KEDZIE AVE", "CHICAGO", "IL", "60612", "E44", [ "{\"address\":\"412 N KEDZIE AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60612\"}", "41.888791436564", "-87.70657770924328", null, false ] ]
+, [ 18, "E72A16D7-97AE-4679-8C87-3202A421FA20", 18, 1293051547, "386464", 1293051633, "386464", null, "E96", "439 N WALLER AVE", "CHICAGO", "IL", "60644", "E96", [ "{\"address\":\"439 N WALLER AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60644\"}", "41.88832430415244", "-87.76761633819585", null, false ] ]
+, [ 19, "1D76A2C6-46AA-4C55-A720-1E385105434F", 19, 1293051547, "386464", 1293051627, "386464", null, "E103", "25 S LAFLIN ST", "CHICAGO", "IL", "60607", "E103", [ "{\"address\":\"25 S LAFLIN ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60607\"}", "41.880715524740886", "-87.66412071624002", null, false ] ]
+, [ 20, "D27AE855-B50A-4B0D-92DD-6C371D674C2E", 20, 1293051547, "386464", 1293051632, "386464", null, "E8", "212 W CERMAK RD", "CHICAGO", "IL", "60616", "E8", [ "{\"address\":\"212 W CERMAK RD\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60616\"}", "41.85313331810226", "-87.63235666216515", null, false ] ]
+, [ 21, "F1A4B21D-B726-4947-A782-1F423F0C040D", 21, 1293051547, "386464", 1293051634, "386464", null, "E83", "1200 W WILSON AVE", "CHICAGO", "IL", "60640", "E83", [ "{\"address\":\"1200 W WILSON AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60640\"}", "41.96563850396769", "-87.65997484168496", null, false ] ]
+, [ 22, "C6A8D3FB-27CA-4525-8BE0-6EA6BAA41798", 22, 1293051547, "386464", 1293051632, "386464", null, "E126", "7313 S KINGSTON AVE", "CHICAGO", "IL", "60649", "E126", [ "{\"address\":\"7313 S KINGSTON AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60649\"}", "41.76239663139161", "-87.56393561616461", null, false ] ]
+, [ 23, "091BB1F7-BA34-4833-BAD8-21CA2F6EBF06", 23, 1293051547, "386464", 1293051627, "386464", null, "E70/E59", "6030 N CLARK ST", "CHICAGO", "IL", "60660", "E70/59", [ "{\"address\":\"6030 N CLARK ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60660\"}", "41.99185705844965", "-87.6702338230154", null, false ] ]
+, [ 24, "90D3F6D5-018B-427F-8B7C-50D170FE0C37", 24, 1293051547, "386464", 1293051631, "386464", null, "E127", "5200 W 63RD ST", "CHICAGO", "IL", "60638", "E127", [ "{\"address\":\"5200 W 63RD ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60638\"}", "41.77750932865842", "-87.75197548528234", null, false ] ]
+, [ 25, "0631169E-02C5-4C7B-B743-A499FD0A96E4", 25, 1293051547, "386464", 1293051627, "386464", null, "E64", "7659 S PULASKI RD", "CHICAGO", "IL", "60652", "E64", [ "{\"address\":\"7659 S PULASKI RD\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60652\"}", "41.75300608968367", "-87.72192154895255", null, false ] ]
+, [ 26, "4F202994-C8C8-468D-8ECF-9EBEAC2DB314", 26, 1293051547, "386464", 1293051629, "386464", null, "E55", "2718 N HALSTED ST", "CHICAGO", "IL", "60614", "E55", [ "{\"address\":\"2718 N HALSTED ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60614\"}", "41.93179744380986", "-87.64899361595215", null, false ] ]
+, [ 27, "D455E3B2-BA2E-404D-8E4B-A15185074E4D", 27, 1293051547, "386464", 1293051633, "386464", null, "E63", "1440 E 67TH ST", "CHICAGO", "IL", "60637", "E63", [ "{\"address\":\"1440 E 67TH ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60637\"}", "41.77330654417221", "-87.59020200469239", null, false ] ]
+, [ 28, "2FD52DBF-DC35-49B9-BBAE-E45B22A15DBC", 28, 1293051547, "386464", 1293051628, "386464", null, "E125", "2323 N NATCHEZ AVE", "CHICAGO", "IL", "60707", "E125", [ "{\"address\":\"2323 N NATCHEZ AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60707\"}", "41.92208525379962", "-87.78775414416", null, false ] ]
+, [ 29, "6F36320C-0830-4BF2-BAAF-BC1922AC1048", 29, 1293051547, "386464", 1293051630, "386464", null, "E97", "13359 S BURLEY AVE", "CHICAGO", "IL", "60633", "E97", [ "{\"address\":\"13359 S BURLEY AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60633\"}", "41.652591152628624", "-87.54470437664087", null, false ] ]
+, [ 30, "700A573B-3755-442C-A474-FDE6B436EA69", 30, 1293051547, "386464", 1293051630, "386464", null, "E13", "259 N COLUMBUS DR", "CHICAGO", "IL", "60601", "E13", [ "{\"address\":\"259 N COLUMBUS DR\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60601\"}", "41.88646360558985", "-87.62061359066273", null, false ] ]
+, [ 31, "361A969C-EA11-4A7D-AD9C-A4D295C3644F", 31, 1293051547, "386464", 1293051628, "386464", null, "E47", "432 E MARQUETTE RD", "CHICAGO", "IL", "60637", "E47", [ "{\"address\":\"432 E MARQUETTE RD\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60637\"}", "41.77300015277593", "-87.6141755209756", null, false ] ]
+, [ 32, "F22F2ACA-185D-484A-A6A2-6F7F915BF634", 32, 1293051547, "386464", 1293051634, "386464", null, "E123", "2215 W 51ST ST", "CHICAGO", "IL", "60609", "E123", [ "{\"address\":\"2215 W 51ST ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60609\"}", "41.801170483375124", "-87.67986218548822", null, false ] ]
+, [ 33, "D7A6B687-B5DB-4573-9359-664E111852E7", 33, 1293051547, "386464", 1293051633, "386464", null, "E107", "1101 S CALIFORNIA AVE", "CHICAGO", "IL", "60612", "E107", [ "{\"address\":\"1101 S CALIFORNIA AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60612\"}", "41.86810702989009", "-87.6956239669264", null, false ] ]
+, [ 34, "33621E5D-E59A-45E3-B85F-1DE678176D75", 34, 1293051547, "386464", 1293051628, "386464", null, "E46", "3027 E 93RD ST", "CHICAGO", "IL", "60617", "E46", [ "{\"address\":\"3027 E 93RD ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60617\"}", "41.72641224082973", "-87.55007769314022", null, false ] ]
+, [ 35, "E162E3A3-6216-4033-AADE-8593383C2285", 35, 1293051547, "386464", 1293051633, "386464", null, "E57", "1244 N WESTERN AVE", "CHICAGO", "IL", "60622", "E57", [ "{\"address\":\"1244 N WESTERN AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60622\"}", "41.9038275429672", "-87.68713245676875", null, false ] ]
+, [ 36, "81B5B28F-2A96-49F9-A1EE-1A7144E2D72B", 36, 1293051547, "386464", 1293051630, "386464", null, "E102", "7340 N CLARK ST", "CHICAGO", "IL", "60626", "E102", [ "{\"address\":\"7340 N CLARK ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60626\"}", "42.014640160686284", "-87.67502361090747", null, false ] ]
+, [ 37, "A4141BC1-F911-4AAB-BDEC-CA7EA5337198", 37, 1293051547, "386464", 1293051631, "386464", null, "E11", "5343 N CUMBERLAND AVE", "CHICAGO", "IL", "60656", "E11", [ "{\"address\":\"5343 N CUMBERLAND AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60656\"}", "41.97685625348317", "-87.836495886321", null, false ] ]
+, [ 38, "372C7788-FF0D-49B2-A355-A9C021FA357C", 38, 1293051547, "386464", 1293051628, "386464", null, "E112", "3801 N DAMEN AVE", "CHICAGO", "IL", "60618", "E112", [ "{\"address\":\"3801 N DAMEN AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60618\"}", "41.95075472438277", "-87.67830302464209", null, false ] ]
+, [ 39, "7ABACD1E-9894-4BC2-A9BB-A3DF578CBB07", 39, 1293051547, "386464", 1293051630, "386464", null, "E115", "11940 S PEORIA ST", "CHICAGO", "IL", "60643", "E115", [ "{\"address\":\"11940 S PEORIA ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60643\"}", "41.676767520058746", "-87.64436386377967", null, false ] ]
+, [ 40, "702AEF3A-7507-4E16-9C67-E47B3B37E92A", 40, 1293051547, "386464", 1293051630, "386464", null, "E79", "6424 N LEHIGH AVE", "CHICAGO", "IL", "60646", "E79", [ "{\"address\":\"6424 N LEHIGH AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60646\"}", "41.997974799017584", "-87.76616159362811", null, false ] ]
+, [ 41, "E6F77AC0-89AB-4525-B8C2-1B7B53206EBE", 41, 1293051547, "386464", 1293051633, "386464", null, "E28", "2534 S THROOP ST", "CHICAGO", "IL", "60608", "E28", [ "{\"address\":\"2534 S THROOP ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60608\"}", "41.84557901305613", "-87.65633258746628", null, false ] ]
+, [ 42, "FEC6A8A5-5E76-415B-B99A-26014CF74029", 42, 1293051547, "386464", 1293051634, "386464", null, "E129", "8120 S ASHLAND AVE", "CHICAGO", "IL", "60620", "E129", [ "{\"address\":\"8120 S ASHLAND AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60620\"}", "41.746304611153825", "-87.66346152532664", null, false ] ]
+, [ 43, "23C38E31-7063-48D2-8F33-0E2E0216D3EA", 43, 1293051547, "386464", 1293051628, "386464", null, "E108", "4625 N MILWAUKEE AVE", "CHICAGO", "IL", "60630", "E108", [ "{\"address\":\"4625 N MILWAUKEE AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60630\"}", "41.964650420624565", "-87.75785762001762", null, false ] ]
+, [ 44, "B3B4F5D3-B610-4624-8A5D-D3F77F6A8E79", 44, 1293051547, "386464", 1293051631, "386464", null, "E42", "55 W ILLINOIS ST", "CHICAGO", "IL", "60654", "E42", [ "{\"address\":\"55 W ILLINOIS ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60654\"}", "41.89080151108816", "-87.63009284126726", null, false ] ]
+, [ 45, "6E6A8AB5-575A-4DAF-9939-893673D4574E", 45, 1293051547, "386464", 1293051630, "386464", null, "E16", "4005 S DEARBORN ST", "CHICAGO", "IL", "60609", "E16", [ "{\"address\":\"4005 S DEARBORN ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60609\"}", "41.821900941759", "-87.62749769240351", null, false ] ]
+, [ 46, "1A6620C5-CB8F-417A-A96C-990AFA756519", 46, 1293051547, "386464", 1293051627, "386464", null, "E69", "4017 N TRIPP AVE", "CHICAGO", "IL", "60641", "E69", [ "{\"address\":\"4017 N TRIPP AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60641\"}", "41.953786251061175", "-87.7339286805089", null, false ] ]
+, [ 47, "C00D4834-EB48-4802-8D4F-8D76B5ED93A3", 47, 1293051547, "386464", 1293051632, "386464", null, "E56", "2214 W BARRY AVE", "CHICAGO", "IL", "60618", "E56", [ "{\"address\":\"2214 W BARRY AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60618\"}", "41.93769629431298", "-87.68576576945844", null, false ] ]
+, [ 48, "AD8CB208-8663-4408-A39A-8E38210ECC08", 48, 1293051547, "386464", 1293051631, "386464", null, "E101", "2240 W 69TH ST", "CHICAGO", "IL", "60636", "E101", [ "{\"address\":\"2240 W 69TH ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60636\"}", "41.768394081407024", "-87.67985164411793", null, false ] ]
+, [ 49, "95BDC181-A8C2-494E-8437-535450C53CA4", 49, 1293051547, "386464", 1293051631, "386464", null, "E89", "3945 W PETERSON AVE", "CHICAGO", "IL", "60659", "E89", [ "{\"address\":\"3945 W PETERSON AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60659\"}", "41.990056658779615", "-87.72568030374029", null, false ] ]
+, [ 50, "39394C2F-B703-4C36-9219-277B469A3A08", 50, 1293051547, "386464", 1293051628, "386464", null, "E38", "3949 W 16TH ST", "CHICAGO", "IL", "60623", "E38", [ "{\"address\":\"3949 W 16TH ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60623\"}", "41.85850227061717", "-87.7242763667799", null, false ] ]
+, [ 51, "97ED6F24-15CC-4AC6-8780-BB5F4C86572A", 51, 1293051547, "386464", 1293051631, "386464", null, "E116", "5955 S ASHLAND AVE", "CHICAGO", "IL", "60636", "E116", [ "{\"address\":\"5955 S ASHLAND AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60636\"}", "41.78569136830025", "-87.66426233667036", null, false ] ]
+, [ 52, "2E6F499C-CDAE-4540-B12A-C0757433462C", 52, 1293051547, "386464", 1293051628, "386464", null, "E109", "2358 S WHIPPLE ST", "CHICAGO", "IL", "60623", "E109", [ "{\"address\":\"2358 S WHIPPLE ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60623\"}", "41.84833993168608", "-87.70181130248798", null, false ] ]
+, [ 53, "E40EF4E2-09E6-4752-805D-B9C8E0711956", 53, 1293051547, "386464", 1293051633, "386464", null, "E65", "3002 W 42ND ST", "CHICAGO", "IL", "60632", "E65", [ "{\"address\":\"3002 W 42ND ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60632\"}", "41.8172974388628", "-87.69950400664642", null, false ] ]
+, [ 54, "B6D00804-17B6-445C-A75E-886E50E8F05D", 54, 1293051547, "386464", 1293051632, "386464", null, "E104", "11641 S AVENUE O", "CHICAGO", "IL", "60617", "E104", [ "{\"address\":\"11641 S AVENUE O\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60617\"}", "41.68384838570316", "-87.5400210564776", null, false ] ]
+, [ 55, "DE1C2311-DFFE-4B97-AF69-BB3486ED3F56", 55, 1293051547, "386464", 1293051633, "386464", null, "E76", "1747 N PULASKI RD", "CHICAGO", "IL", "60639", "E76", [ "{\"address\":\"1747 N PULASKI RD\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60639\"}", "41.912618217810966", "-87.72638113254548", null, false ] ]
+, [ 56, "3AB17860-07E6-4523-B2DF-D652AD470A7F", 56, 1293051547, "386464", 1293051629, "386464", null, "E75", "11958 S STATE ST", "CHICAGO", "IL", "60628", "E75", [ "{\"address\":\"11958 S STATE ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60628\"}", "41.67673026792751", "-87.62265939976201", null, false ] ]
+, [ 57, "B772BB58-3094-4EA6-826D-BE5B7FA6DC72", 57, 1293051547, "386464", 1293051632, "386464", null, "E110", "2322 W FOSTER AVE", "CHICAGO", "IL", "60625", "E110", [ "{\"address\":\"2322 W FOSTER AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60625\"}", "41.97593934922963", "-87.6875836047776", null, false ] ]
+, [ 58, "63843D66-D9C5-4535-9DAF-0414BE6E97FA", 58, 1293051547, "386464", 1293051630, "386464", null, "E62", "34 E 114TH ST", "CHICAGO", "IL", "60628", "E62", [ "{\"address\":\"34 E 114TH ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60628\"}", "41.68740625454284", "-87.62413685881735", null, false ] ]
+, [ 59, "2DF1EC85-5B57-40AA-9673-BC1DEB7E6FE5", 59, 1293051547, "386464", 1293051628, "386464", null, "E117", "4900 W CHICAGO AVE", "CHICAGO", "IL", "60651", "E117", [ "{\"address\":\"4900 W CHICAGO AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60651\"}", "41.895036609573054", "-87.74827707033056", null, false ] ]
+, [ 60, "A5B34C42-88EA-430D-AC54-3EA626C4F35C", 60, 1293051547, "386464", 1293051631, "386464", null, "E23", "1915 S DAMEN AVE", "CHICAGO", "IL", "60608", "E23", [ "{\"address\":\"1915 S DAMEN AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60608\"}", "41.85561895838222", "-87.67592085764691", null, false ] ]
+, [ 61, "D0AEBEE2-7847-446B-8F05-6523F7CA2CE8", 61, 1293051547, "386464", 1293051632, "386464", null, "E45", "4600 S COTTAGE GROVE AVE", "CHICAGO", "IL", "60653", "E45", [ "{\"address\":\"4600 S COTTAGE GROVE AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60653\"}", "41.81134320681739", "-87.60662556802056", null, false ] ]
+, [ 62, "8B5D910E-A928-402F-A56E-1FEA38DC4A28", 62, 1293051547, "386464", 1293051631, "386464", null, "E72", "7974 S SOUTH CHICAGO AVE", "CHICAGO", "IL", "60617", "E72", [ "{\"address\":\"7974 S SOUTH CHICAGO AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60617\"}", "41.749827955664045", "-87.58341162594515", null, false ] ]
+, [ 63, "0F4F0BBE-7AF2-44E5-B566-EB23F7668B55", 63, 1293051547, "386464", 1293051627, "386464", null, "E71", "6239 N CALIFORNIA AVE", "CHICAGO", "IL", "60659", "E71", [ "{\"address\":\"6239 N CALIFORNIA AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60659\"}", "41.99514651466264", "-87.69953001132356", null, false ] ]
+, [ 64, "23E1A2C1-A779-486C-BCCB-5FC33E2B52D9", 64, 1293051547, "386464", 1293051628, "386464", null, "E19", "3421 S CALUMET AVE", "CHICAGO", "IL", "60616", "E19", [ "{\"address\":\"3421 S CALUMET AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60616\"}", "41.83227804024279", "-87.61779663851078", null, false ] ]
+, [ 65, "A225D45F-592E-4C3E-AE55-0319B6E76E1A", 65, 1293051547, "386464", 1293051631, "386464", null, "E32", "5559 S NARRAGANSETT AVE", "CHICAGO", "IL", "60638", "E32", [ "{\"address\":\"5559 S NARRAGANSETT AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60638\"}", "41.79123564423197", "-87.78169288573983", null, false ] ]
+, [ 66, "F2615E57-8138-4CE6-8C84-D23228A3D8A7", 66, 1293051547, "386464", 1293051634, "386464", null, "E122", "101 E 79TH ST", "CHICAGO", "IL", "60619", "E122", [ "{\"address\":\"101 E 79TH ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60619\"}", "41.75098315968846", "-87.62135205388734", null, false ] ]
+, [ 67, "31487B48-6EE1-4939-BEAF-F159E328E679", 67, 1293051547, "386464", 1293051628, "386464", null, "E35", "1901 N DAMEN AVE", "CHICAGO", "IL", "60647", "E35", [ "{\"address\":\"1901 N DAMEN AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60647\"}", "41.91622975167794", "-87.67720585176635", null, false ] ]
+, [ 68, "44DFB6DB-F1E1-4476-8469-E9BA31F0D10D", 68, 1293051547, "386464", 1293051629, "386464", null, "E106", "3401 N ELSTON AVE", "CHICAGO", "IL", "60618", "E106", [ "{\"address\":\"3401 N ELSTON AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60618\"}", "41.943065521032246", "-87.7032142448537", null, false ] ]
+, [ 69, "02BB6B46-8BB1-4264-A3D6-5309EC84D85D", 69, 1293051547, "386464", 1293051627, "386464", null, "E4", "548 W DIVISION ST", "CHICAGO", "IL", "60610", "E4", [ "{\"address\":\"548 W DIVISION ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60610\"}", "41.903989978859165", "-87.64291470278913", null, false ] ]
+, [ 70, "A3FEF214-AE76-42CE-8FBC-04D9BAAF46AD", 70, 1293051547, "386464", 1293051631, "386464", null, "E30", "1125 N ASHLAND AVE", "CHICAGO", "IL", "60622", "E30", [ "{\"address\":\"1125 N ASHLAND AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60622\"}", "41.90220932124115", "-87.66707948571641", null, false ] ]
+, [ 71, "3C02BF09-306E-4D78-976F-F79728CF5EE0", 71, 1293051547, "386464", 1293051629, "386464", null, "E81", "10458 S HOXIE AVE", "CHICAGO", "IL", "60617", "E81", [ "{\"address\":\"10458 S HOXIE AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60617\"}", "41.705334319654064", "-87.56088524816063", null, false ] ]
+, [ 72, "2C057563-367C-4DE0-9308-1436DA9B0E13", 72, 1293051547, "386464", 1293051628, "386464", null, "E78", "1052 W WAVELAND AVE", "CHICAGO", "IL", "60613", "E78", [ "{\"address\":\"1052 W WAVELAND AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60613\"}", "41.94920789049237", "-87.65640453322862", null, false ] ]
+, [ 73, "27FB5079-D531-4FBC-B189-7FA22B198CC1", 73, 1293051547, "386464", 1293051628, "386464", null, "E113", "5212 W HARRISON ST", "CHICAGO", "IL", "60644", "E113", [ "{\"address\":\"5212 W HARRISON ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60644\"}", "41.872982656337946", "-87.75506878145924", null, false ] ]
+, [ 74, "EC9731C7-B41A-41BE-AC1B-12B4DD6A95F6", 74, 1293051547, "386464", 1293051633, "386464", null, "E7", "4911 W BELMONT AVE", "CHICAGO", "IL", "60641", "E7", [ "{\"address\":\"4911 W BELMONT AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60641\"}", "41.9387854993556", "-87.74963764827827", null, false ] ]
+, [ 75, "60B659DA-C58E-4F0C-9A0A-C23228570E9B", 75, 1293051547, "386464", 1293051629, "386464", null, "E84", "21 W 59TH ST", "CHICAGO", "IL", "60621", "E84", [ "{\"address\":\"21 W 59TH ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60621\"}", "41.786898250644306", "-87.62642113677177", null, false ] ]
+, [ 76, "D32B87BA-CFAC-4F12-8127-7810238D8E97", 76, 1293051547, "386464", 1293051633, "386464", null, "E74", "10615 S EWING AVE", "CHICAGO", "IL", "60617", "E74", [ "{\"address\":\"10615 S EWING AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60617\"}", "41.702187603130206", "-87.53522906326324", null, false ] ]
+, [ 77, "70717BA5-0CAF-42D5-B754-7E28B49DBB9E", 77, 1293051547, "386464", 1293051630, "386464", null, "E88", "3637 W 59TH ST", "CHICAGO", "IL", "60629", "E88", [ "{\"address\":\"3637 W 59TH ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60629\"}", "41.785702152345344", "-87.71468959394757", null, false ] ]
+, [ 78, "628FAC8A-BD18-42AD-BCC5-71219EFC809D", 78, 1293051547, "386464", 1293051630, "386464", null, "E120", "11035 S HOMEWOOD AVE", "CHICAGO", "IL", "60643", "E120", [ "{\"address\":\"11035 S HOMEWOOD AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60643\"}", "41.693205775399605", "-87.66882538049862", null, false ] ]
+, [ 79, "DA49FB5C-30D7-40B4-BDF2-D3B2131BE552", 79, 1293051547, "386464", 1293051633, "386464", null, "E50", "5000 S UNION AVE", "CHICAGO", "IL", "60609", "E50", [ "{\"address\":\"5000 S UNION AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60609\"}", "41.80344788181221", "-87.64299386409898", null, false ] ]
+, [ 80, "AFD71AEB-7A66-4A01-BB9A-88E09B9A7E93", 80, 1293051547, "386464", 1293051631, "386464", null, "E68", "5258 W GRAND AVE", "CHICAGO", "IL", "60639", "E68", [ "{\"address\":\"5258 W GRAND AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60639\"}", "41.91725086259721", "-87.75747321069997", null, false ] ]
+, [ 81, "55E03949-18FE-4C86-9027-B2028D225896", 81, 1293051547, "386464", 1293051629, "386464", null, "E92", "3112 W 111TH ST", "CHICAGO", "IL", "60655", "E92", [ "{\"address\":\"3112 W 111TH ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60655\"}", "41.6916111688133", "-87.69891865020873", null, false ] ]
+, [ 82, "16180A14-5BC4-4B7A-850A-288F48B64719", 82, 1293051547, "386464", 1293051627, "386464", null, "E124", "4426 N KEDZIE AVE", "CHICAGO", "IL", "60625", "E124", [ "{\"address\":\"4426 N KEDZIE AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60625\"}", "41.961690670919346", "-87.7082930624585", null, false ] ]
+, [ 83, "65181B0D-89CB-4CB1-99C4-43115C1EBDE6", 83, 1293051547, "386464", 1293051630, "386464", null, "E91", "2827 N PULASKI RD", "CHICAGO", "IL", "60641", "E91", [ "{\"address\":\"2827 N PULASKI RD\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60641\"}", "41.93223675592729", "-87.72695711402253", null, false ] ]
+, [ 84, "0789212D-6E19-459A-B055-D46CF329E144", 84, 1293051547, "386464", 1293051627, "386464", null, "E43", "2179 N STAVE ST", "CHICAGO", "IL", "60647", "E43", [ "{\"address\":\"2179 N STAVE ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60647\"}", "41.92093320589118", "-87.69644234997307", null, false ] ]
+, [ 85, "52576449-018B-4AC3-915F-B3C5F8C50860", 85, 1293051547, "386464", 1293051629, "386464", null, "E95", "4003 W WEST END AVE", "CHICAGO", "IL", "60624", "E95", [ "{\"address\":\"4003 W WEST END AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60624\"}", "41.88334382548296", "-87.72576410502936", null, false ] ]
+, [ 86, "C5EBCB34-48CD-41CF-AC76-2006084EE01C", 86, 1293051547, "386464", 1293051632, "386464", null, "E94", "5758 W GRACE ST", "CHICAGO", "IL", "60634", "E94", [ "{\"address\":\"5758 W GRACE ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60634\"}", "41.949448311266025", "-87.77069385620601", null, false ] ]
+, [ 87, "754CF930-E9B7-497A-99BA-74485F662AEF", 87, 1293051547, "386464", 1293051630, "386464", null, "E82", "817 E 91ST ST", "CHICAGO", "IL", "60619", "E82", [ "{\"address\":\"817 E 91ST ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60619\"}", "41.72933327959225", "-87.60425730151255", null, false ] ]
+, [ 88, "71D361E3-46E2-49FE-943D-EAA38D2AA59E", 88, 1293051547, "386464", 1293051630, "386464", null, "E18", "1360 N BLUE ISLAND AVE", "CHICAGO", "IL", "60608", "E18", [ "{\"address\":\"1360 N BLUE ISLAND AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60608\"}", "41.864503979120165", "-87.65556796459875", null, false ] ]
+, [ 89, "CFEB22FE-4AF8-4F56-B2F7-DEE33381B645", 89, 1293051547, "386464", 1293051632, "386464", null, "E29", "3509 S LOWE AVE", "CHICAGO", "IL", "60609", "E29", [ "{\"address\":\"3509 S LOWE AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60609\"}", "41.83078516567415", "-87.64213229262364", null, false ] ]
+, [ 90, "FF855EC2-E15A-45E6-A0A8-6AD527BB3582", 90, 1293051547, "386464", 1293051634, "386464", null, "E39", "1618 W 33RD PL", "CHICAGO", "IL", "60608", "E39", [ "{\"address\":\"1618 W 33RD PL\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60608\"}", "41.83346514532146", "-87.66635103487269", null, false ] ]
+, [ 91, "FDD5B82B-B5E2-48D8-A3EB-A4CE12E761B4", 91, 1293051547, "386464", 1293051634, "386464", null, "E60", "1150 E 55TH ST", "CHICAGO", "IL", "60615", "E60", [ "{\"address\":\"1150 E 55TH ST\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60615\"}", "41.79515197581412", "-87.59751892663527", null, false ] ]
+, [ 92, "6117F046-13B4-44B6-82DB-21A30137C7FA", 92, 1293051547, "386464", 1293051629, "386464", null, "E15", "8026 S KEDZIE AVE", "CHICAGO", "IL", "60652", "E15", [ "{\"address\":\"8026 S KEDZIE AVE\",\"city\":\"CHICAGO\",\"state\":\"IL\",\"zip\":\"60652\"}", "41.74747486194539", "-87.70238006254415", null, false ] ]
+ ]
+}
