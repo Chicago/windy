@@ -50,7 +50,7 @@ module Windy
     def json
       # For some reason ruby 1.9.x seems to be trying to parse the
       # API JSON output as ASCII instead of UTF-8
-      body.force_encoding("UTF-8") unless body.nil?
+      body.force_encoding("UTF-8") unless body.nil? || !body.respond_to?(:force_encoding)
       @json ||= MultiJson.decode(body)
     end
 
