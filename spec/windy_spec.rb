@@ -6,6 +6,16 @@ describe Windy do
     Windy.app_token = "abc123"
   end
 
+  describe "client_error" do
+    it "should throw exception when invalid app_token is provided" do
+      stub_request(:get, "http://data.cityofchicago.org/api/views?limit=200&page=1").
+                   to_return(:status => 403, :body => fixture("invalid_app_token.json"), :headers => {'X-Error-Code' => 'permission_denied', 'X-Error-Message' => 'Invalid app_token specified'
+                   })
+
+      lambda{Windy.views.count}.should raise_error("Invalid app_token specified")
+    end
+  end
+
   describe ".views" do
     before do
       stub_request(:get, "http://data.cityofchicago.org/api/views?limit=200&page=1").
