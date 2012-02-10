@@ -6,6 +6,16 @@ describe Windy do
     Windy.app_token = "abc123"
   end
 
+  describe "client_error" do
+    it "should throw exception when invalid app_token is provided" do
+      stub_request(:get, "http://data.cityofchicago.org/api/views?limit=200&page=1").
+                   to_return(:status => 403, :body => fixture("invalid_app_token.json"), :headers => {'X-Error-Code' => 'permission_denied', 'X-Error-Message' => 'Invalid app_token specified'
+                   })
+
+      lambda{Windy.views.count}.should raise_error("Invalid app_token specified")
+    end
+  end
+
   describe ".views" do
     before do
       stub_request(:get, "http://data.cityofchicago.org/api/views?limit=200&page=1").
@@ -21,7 +31,7 @@ describe Windy do
     end
   end
 
-  describe ".findy_by_id" do
+  describe ".find_by_id" do
     it "should return the view" do
       fire_stations = Windy.views.find_by_id("28km-gtjn")
       fire_stations.should be_a Windy::View
@@ -48,8 +58,8 @@ describe Windy do
     end
   end
 
-   describe ".columns" do
-    it "should return the colmns view" do
+  describe ".columns" do
+    it "should return the columns view" do
       fire_stations = Windy.views.find_by_id("28km-gtjn")
       stations = fire_stations.rows
       stations.columns.should == ["sid", "id", "position", "created_at", "created_meta", "updated_at", "updated_meta", "meta", "name", "address", "city", "state", "zip", "engine", "location"]
