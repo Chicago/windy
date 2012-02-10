@@ -21,7 +21,7 @@ describe Windy do
     end
   end
 
-  describe ".findy_by_id" do
+  describe ".find_by_id" do
     it "should return the view" do
       fire_stations = Windy.views.find_by_id("28km-gtjn")
       fire_stations.should be_a Windy::View
@@ -48,8 +48,8 @@ describe Windy do
     end
   end
 
-   describe ".columns" do
-    it "should return the colmns view" do
+  describe ".columns" do
+    it "should return the columns view" do
       fire_stations = Windy.views.find_by_id("28km-gtjn")
       stations = fire_stations.rows
       stations.columns.should == ["sid", "id", "position", "created_at", "created_meta", "updated_at", "updated_meta", "meta", "name", "address", "city", "state", "zip", "engine", "location"]
