@@ -8,6 +8,17 @@ module Windy
     attr_accessor :app_token, :debug
   end
 
+  module Response
+    class RaiseClientError < Faraday::Response::Middleware
+      def on_complete(env)
+        case env[:status].to_i
+          when 403
+            raise env[:response_headers][:x_error_message]
+        end
+      end
+    end
+  end
+
   class SocrataAppTokenMiddleware < Faraday::Middleware
     def call(env)
       raise "You must specify an app token" if !Windy.app_token
@@ -26,6 +37,7 @@ module Windy
     def initialize
       @connection = Faraday.new(:url => self.class.root) do |builder|
         builder.use SocrataAppTokenMiddleware
+        builder.use Windy::Response::RaiseClientError
         builder.request :json
 
         # Enable logger output with Windy.debug = true
