@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 
   s.files = ["README.md", "lib/windy.rb"]
 
-  s.add_dependency "faraday",    "~> 0.7"
+  s.add_dependency "faraday_middleware",    "~> 0.8"
   s.add_dependency "multi_json", "~> 1.0"
   s.add_development_dependency 'rspec', '~> 2.6'
   s.add_development_dependency 'simplecov', '~> 0.4'
